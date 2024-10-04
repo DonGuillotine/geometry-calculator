@@ -1,6 +1,6 @@
 # GeometryCalculator Smart Contract
 
-This project is a Solidity smart contract for calculating the area of triangles, rectangles, and squares. The contract is designed to run on the Ethereum blockchain and has been deployed on the Sepolia testnet.
+This project is a Solidity smart contract for calculating the area of triangles, rectangles, and squares. The contract is designed to run on the Ethereum blockchain and has been deployed on the Lisk Sepolia testnet.
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ The `GeometryCalculator` contract provides functions to calculate the area of th
 - **Rectangle**: Calculates the area given the length and width.
 - **Square**: Calculates the area given the length of one side.
 
-This project uses the Solidity programming language and is developed using the Hardhat framework. The contract has been deployed to the Sepolia testnet using Alchemy.
+This project uses the Solidity programming language and is developed using the Hardhat framework. The contract has been deployed to the Lisk Sepolia testnet using Alchemy.
 
 ## Features
 
@@ -54,17 +54,11 @@ To work with this project, you need to have the following installed:
    ```
 
 3. **Set up environment variables**:
-   - Create a `.env` file in the root directory and add the following variables:
-     ```bash
-     ALCHEMY_API_URL=https://eth-sepolia.alchemyapi.io/v2/YOUR_ALCHEMY_API_KEY
-     PRIVATE_KEY=YOUR_METAMASK_PRIVATE_KEY
-     ETHERSCAN_API_KEY=YOUR_ETHERSCAN_API_KEY
-     ```
-   - Replace `YOUR_ALCHEMY_API_KEY`, `YOUR_METAMASK_PRIVATE_KEY` and `ETHERSCAN_API_KEY` with your actual Alchemy API key, MetaMask private key and Etherscan API Key.
+   - Create a `.env` file in the root directory.
 
 ## Deployment
 
-To deploy the contract to the Sepolia testnet:
+To deploy the contract to the Lisk Sepolia testnet:
 
 1. **Compile the contract**:
    ```bash
@@ -73,7 +67,7 @@ To deploy the contract to the Sepolia testnet:
 
 2. **Deploy the contract**:
    ```bash
-   npx hardhat run scripts/deploy.js --network sepolia
+   npx hardhat run scripts/deploy.js --network lisk-sepolia
    ```
 
 3. After deployment, the contract address will be displayed in the console.
